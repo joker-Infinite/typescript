@@ -18,7 +18,7 @@
         // lifecycle hook
         private mounted() {
             alert("生命周期！");
-            this.greet();
+            this.greet(2);
         }
 
         // computed
@@ -27,8 +27,8 @@
         }
 
         // method
-        private greet() {
-            alert('方法');
+        private greet(v: number) {
+            alert('方法' + v);
         }
     }
 </script>

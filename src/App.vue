@@ -4,21 +4,21 @@
   </div>
 </template>
 
-<style>
-  * {
-    margin: 0;
-    padding: 0;
-  }
+<script>
 
-  #app {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: #333333;
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: #f1f1f1;
-  }
+export default {
+  name: 'app',
+  components: {}
+}
+</script>
+
+<style>
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
 </style>
